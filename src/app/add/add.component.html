@@ -1,0 +1,25 @@
+<h1>Add</h1>
+
+<div>
+    <label>Numero 1:
+        <input [(ngModel)]="numero1" placeholder="digite numero 1" type="number" />
+    </label>
+</div>
+
+<div>
+    <label>Numero 2:
+        <input [(ngModel)]="numero2" placeholder="digite numero 2" type="number" />
+    </label>
+</div>
+
+<div>
+    <button (click)="add()"> 
+        ADD
+    </button>
+</div>
+
+<div>
+    <label>Resultado :
+       {{resultado}}
+    </label>
+</div>
