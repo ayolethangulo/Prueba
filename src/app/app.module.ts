@@ -6,12 +6,14 @@ import { AppComponent } from './app.component';
 import { AddComponent } from './add/add.component';
 import { FormsModule} from '@angular/forms';
 import { PruebaRegistroComponent } from '../prueba/prueba-registro/prueba-registro.component';
+import { Prueba2Component } from './prueba2/prueba2.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     AddComponent,
-    PruebaRegistroComponent
+    PruebaRegistroComponent,
+    Prueba2Component
   ],
   imports: [
     BrowserModule,
